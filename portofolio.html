@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ExPro Travel</title>
+    <link rel="stylesheet" href="portofolio.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+
+<style>
+    html,
+    body {
+      position: relative;
+      height: 100%;
+    }
+
+    body {
+      background: #eee;
+      font-size: 14px;
+      color: #000;
+      margin: 0;
+      padding: 0;
+    }
+
+    .swiper {
+      width: 95%;
+      height: 100%;
+      padding-bottom: 50px;
+    }
+
+    .swiper-slide{
+      text-align: center;
+      font-size: 18px;
+      align-items: center;
+      height: 30rem;
+      overflow: hidden;
+      background: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .swiper-slide img {
+      display: block;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 20px;
+    }
+  </style>
+
+
+
+
+</head>
+<body>
+
+<div class="container">
+    <nav>
+        <a class="logo" href="#"><span style="color:#D2E0FB;"><b>ExPro</b></span><span style="color:white;"><b>Travel</b></span></a>
+        <div class="navbar">
+            <a href="#menu"><b>Menu</b></a>
+            <a href="#aboutus"><b>About Us</b></a>
+            <a href="#popular"><b>Popular</b></a>   
+        </div>
+        
+    </nav>
+    <div class="hero">
+       <div class="overlay"></div>
+<div class="texticon">    
+    <div class="herotext">
+    <h1>"Hidup adalah sebuah perjalanan,<br> bukan tujuan."</h1>
+    
+    <p>Situs Penjualan Tiket <i>Traveling</i> Terbaik di Dunia</p>
+    </div> 
+    <div class="heroicon">
+      <i class="fa-brands fa-instagram"></i>
+      <i class="fa-brands fa-x-twitter"></i>
+      <i class="fa-brands fa-youtube"></i>
+    </div>
+</div>
+    <div class="order-now">
+    <h4>Order Now</h4>
+    </div>
+    </div>
+
+
+    <div class="aboutus">
+      <h1>[About Us]</h1>
+      <div class="about">
+      <div class="aboutimg"><img src="aset/pexels-pixabay-533769.jpg"></div>
+      <div class="abouttext">Kami adalah ExproTravel sebuah tim yang berdedikasi untuk membantu Anda
+        menjelajahi dunia dengan cara yang lebih mudah, nyaman, dan berkesan.
+        Dengan pengalaman bertahun-tahun di industri travel, kami telah membantu
+        ribuan pelancong menemukan destinasi impian mereka, mulai dari wisata alam
+        yang memukau hingga pengalaman budaya yang mendalam. Kami percaya
+        bahwa setiap perjalanan adalah kesempatan untuk menciptakan kenangan
+        baru, dan itulah mengapa kami memastikan setiap detail direncanakan dengan
+        sempurna. Kami memahami bahwa setiap pelancong memiliki gaya dan
+        preferensi berbeda. Dengan pendekatan personal, kami memberikan solusi
+        perjalanan yang sesuai dengan keinginan Anda. Komitmen kami adalah
+        memberikan layanan terbaik, mulai dari proses perencanaan hingga Anda
+        kembali dengan senyuman puas.</div>
+      </div>
+    </div>
+    
+            
+            <div class="popular-destination">
+                <h1>[Destinasi Popular Kami]</h1>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide"><img src="aset/pexels-adrienn-638530-1460145.jpg"><div class="teks-gambar1"><b>Paris,<br>France</b></div></div>
+                  <div class="swiper-slide"><img src="aset/pexels-apasaric-2385210.jpg"><div class="teks-gambar2"><b>Tokyo,<br>Japan</b></div></div>
+                  <div class="swiper-slide"><img src="aset/pexels-dimitris-s12-639310-1441932.jpg"><div class="teks-gambar3"><b>Hong Kong,<br>China</b></div></div>
+                  <div class="swiper-slide"><img src="aset/pexels-freestockpro-2166559.jpg"><div class="teks-gambar4"><b>Pura Ulun Danu Bratan,<br>Bali</b></div></div>
+                  <div class="swiper-slide"><img src="aset/pexels-olenkabohovyk-3686798.jpg"><div class="teks-gambar5"><b>Amsterdam,<br>Netherlands</b></div></div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            
+              <!-- Swiper JS -->
+              <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+            
+              <!-- Initialize Swiper -->
+              <script>
+                var swiper = new Swiper(".mySwiper", {
+                  slidesPerView: 3,
+                  spaceBetween: 30,
+                  freeMode: true,
+                  pagination: {
+                    el: ".swiper-pagination",
+                    clickable: true,
+                  },
+                });
+              </script>
+              </div>
+
+
+              <div class="testimani"><h1>[Testimoni]</h1></div>
+              <div class="testimoni"> 
+              <div class="reviewpelanggan">                
+              <div class="namapelanggan">
+                <div class="reviewfoto"><img src="aset/download__1_-removebg-preview.png" alt=""></div>
+                <div class="namareviewer"><h3>Ryan Garcia</h3><br>Explorer</div>
+              </div>
+              <div class="lokasiorang">
+                <i class="fa-solid fa-location-dot"></i>
+                Bali, Indonesia
+              </div>
+              <div class="katakata">
+                <p>Luar biasa, pelayanan cepat & perjalanan lancar sesuai tanggal yang ditentukan</p>
+              <div class="stars">
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+                <i class="fa-solid fa-star"></i>
+              </div>
+              </div>
+              </div>
+
+              <div class="reviewpelanggan">                
+                <div class="namapelanggan">
+                  <div class="reviewfoto"><img src="aset/download__1_-removebg-preview.png" alt=""></div>
+                  <div class="namareviewer"><h3>Ryan Garcia</h3><br>Explorer</div>
+                </div>
+                <div class="lokasiorang">
+                  <i class="fa-solid fa-location-dot"></i>
+                  Bali, Indonesia
+                </div>
+                <div class="katakata">
+                  <p>Luar biasa, pelayanan cepat & perjalanan lancar sesuai tanggal yang ditentukan</p>
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                </div>
+                </div>
+
+                <div class="reviewpelanggan">                
+                  <div class="namapelanggan">
+                    <div class="reviewfoto"><img src="aset/download__1_-removebg-preview.png" alt=""></div>
+                    <div class="namareviewer"><h3>Ryan Garcia</h3><br>Explorer</div>
+                  </div>
+                  <div class="lokasiorang">
+                    <i class="fa-solid fa-location-dot"></i>
+                    Bali, Indonesia
+                  </div>
+                  <div class="katakata">
+                    <p>Luar biasa, pelayanan cepat & perjalanan lancar sesuai tanggal yang ditentukan</p>
+                  <div class="stars">
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                    <i class="fa-solid fa-star"></i>
+                  </div>
+                  </div>
+                  </div>
+              </div>
+
+              <div class="pricerange"> 
+                <h1>[Paket Wisata]</h1> 
+                  <div class="pricebutton">
+                    <div class="ekonomi"><button><b>Paket Ekonomi</b></button></div>
+                    <div class="standar"><button><b>Paket Standar</b></button></div>
+                    <div class="premium"><button><b>Paket Premium</b></button></div>
+                  </div>
+                  <div class="harga-ekonomi">
+                    <h3>Range Harga 1-10 juta</h3>
+                    <div class="harga-harga">
+                    <div class="destinasi-wisata">
+                      <div class="img"><img src="aset/pexels-farizky-m-ginanjar-1224518-2328371.jpg">
+                      <div class="textpricing">
+                      <h3>Sumatera</h3><h3>2 - 3 Juta</h3>
+                    </div>
+                      </div> 
+                    </div>
+
+                    
+                    <div class="destinasi-wisata">
+                      <div class="img"><img src="aset/pexels-farizky-m-ginanjar-1224518-2328371.jpg">
+                      <div class="textpricing">
+                      <h3>Sumatera</h3><h3>2 - 3 Juta</h3>
+                    </div>
+                      </div> 
+                    </div>
+                    
+
+                    <div class="destinasi-wisata">
+                      <div class="img"><img src="aset/pexels-farizky-m-ginanjar-1224518-2328371.jpg">
+                      <div class="textpricing">
+                      <h3>Sumatera</h3><h3>2 - 3 Juta</h3>
+                    </div>
+                      </div> 
+                    </div>
+                    </div>
+
+                </div>
+              </div>
+
+        
+
+</div>   
+
+</body>
+</html>

@@ -1,0 +1,294 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0);
+    padding: 20px 70px; 
+    position: fixed;
+    z-index: 3;  
+    background-color: rgba(66, 66, 66, 0.603);
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.gimik{
+    color: #D2E0FB;
+}
+
+.navbar a:hover{
+    color: white;
+    background-color: #D2E0FB;
+    border-radius: 10px;
+    transition: ease-in-out 0.2s;
+}
+
+.logo{
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.navbar a{
+    padding: 10px;
+    color: #D2E0FB;
+    text-decoration: none;
+}
+
+.hero{
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    background-image:url(aset/pexels-riciardus-307008.jpg);
+    align-items: center; 
+}
+
+.overlay{
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+    
+        
+}
+
+.hero h1{
+    display: flex;
+    padding-top: 300px;
+    font-size: 60px;
+    padding-left: 70px;
+    color:#ffffff;
+    z-index: 1;
+    position: relative;
+    flex-wrap: wrap;
+}
+
+.hero p{
+    padding-left: 70px;
+    color:white;
+    position: relative;
+    z-index: 1;
+    padding-bottom: 50px;
+}
+
+.texticon{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.heroicon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    gap: 25px;
+    font-size: 30px;
+    flex-wrap: wrap;
+}
+
+.order-now h4{
+    margin-left: 70px;
+    color:white;
+    position: relative;
+    z-index: 1;
+    background-color: #D2E0FB;
+    border-radius: 10px;
+    max-width: 130px;
+    padding: 10px;  
+    font-size: 20px;  
+}
+
+.order-now h4:hover{
+    background-color: white;
+    color: #D2E0FB;
+    transition: ease-in-out 0.2s;
+}
+
+.teks-gambar1{
+    position: absolute;
+    top: 45%;
+    padding-left: 50px; 
+    color: white;
+    font-size: 30px;   
+}
+
+.teks-gambar2{
+    position: absolute;
+    top: 45%;
+    padding-left: 50px; 
+    color: white;
+    font-size: 30px;    
+}
+
+.teks-gambar3{
+    position: absolute;
+    top: 45%;
+    padding-left: 50px; 
+    color: white;
+    font-size: 30px;    
+}
+
+.teks-gambar4{
+    position: absolute;
+    top: 45%;
+    padding-left: 50px; 
+    color: white;
+    font-size: 30px;    
+}
+
+.teks-gambar5{
+    position: absolute;
+    top: 45%;
+    padding-left: 50px; 
+    color: white;
+    font-size: 30px; 
+}
+
+.popular-destination h1{
+    padding-top: 100px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+}
+
+.aboutus{
+    padding: 50px;
+}
+
+.about{
+    display: flex;
+    gap: 30px;
+}
+
+.aboutus h1{
+    padding: 50px;
+}
+
+.about img{
+    width: 50vw;
+    border-radius: 20px;
+}
+
+.abouttext{
+    font-size: 25px;
+}
+
+
+
+.testimani{
+    padding: 50px;
+}
+
+.testimoni{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.reviewpelanggan{
+    background-color: rgba(128, 128, 128, 0.199);
+    width: 30vw;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.reviewfoto img{
+    padding: 50px;
+    width: 10vw
+}
+
+.namareviewer h3{
+    font-size: 20px;
+}
+
+.namapelanggan{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.lokasiorang{
+    padding-bottom: 10px;
+}
+
+.stars{
+    display: flex;
+    padding-top: 10px;
+    flex-wrap: wrap;
+}
+
+.harga-harga{
+    display: flex;
+    justify-content: space-around;
+}
+
+.pricerange h1{
+    padding:50px ;
+}
+
+.harga-ekonomi h3{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.pricebutton{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;
+}
+
+.pricebutton button{
+    padding: 20px;
+    color: black;
+    background-color: #D2E0FB;
+    border-radius: 30px;
+    font-family: 'poppins',sans-serif;
+    outline: 0px;
+    border: 0px;
+}
+
+.pricebutton button:hover{
+    background-color: #8EACCD;
+    color: white;
+    transition: ease-in-out 0.3s;
+}
+
+.destinasi-wisata{
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+    background-color: rgba(128, 128, 128, 0.24);
+    width: 500px;
+    border-radius: 20px;
+}
+
+.destinasi-wisata img{
+    width: 500px;
+    height: 500px;   
+    object-fit: cover;  
+    padding: 10px;  
+    border-radius: 20px; 
+}
+
+.textpricing{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+@media (max-width:820px){
+
+}
+
